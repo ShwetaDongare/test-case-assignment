@@ -1,7 +1,5 @@
 package assignment;
 
-import assignment.Person;
-import assignment.WrongPerson;
 import org.junit.Assert;
 import org.junit.Test;
 
