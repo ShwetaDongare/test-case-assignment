@@ -1,7 +1,11 @@
+package assignment;
+
+import assignment.Person;
+import assignment.WrongPerson;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class EqualsAndHashCode {
+public class EqualsAndHashCodeTest {
     @Test
     public void testToCheckEqualsWhenTwoStringsAreNotEqualGivesFalse() throws Exception {
         String hello = "hello";

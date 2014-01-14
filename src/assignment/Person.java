@@ -1,7 +1,10 @@
+package assignment;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
 
 public class Person implements Comparable<Person> {
     private String name;

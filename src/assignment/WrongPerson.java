@@ -1,3 +1,4 @@
+package assignment;
 
 public class WrongPerson extends Person {
     private String name;
