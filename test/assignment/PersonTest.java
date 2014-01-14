@@ -116,4 +116,14 @@ public class PersonTest {
         people.add(swamiji2);
         Assert.assertEquals(2, people.size());
     }
+
+    //*****************************************************************************
+
+    @Test(expected = ClassCastException.class)
+    public void testThrowsClassCastException () {
+        ArrayList list = new ArrayList<Person>();
+        list.add("hello");
+        Person person = (Person) list.get(0);
+    }
+
 }
