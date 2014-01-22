@@ -4,13 +4,13 @@ This repository is to test the `hashCode()`, `equals()` and `compareTo()` in JAV
 
 ##### Test cases for Equals
     * With literals and `new String()` constructor 
-    * with same and differnt values
+    * with same and different values
     * With all combinations
 `EqualsAndHashCodeTest.java` file contains above test cases.
 
 ##### Create test cases for Equals of Person
     * With correct and wrong equals and hash code implementation
-    * With different data strucuture `HashMap`,`Set` and `ArrayList`
+    * With different data structure `HashMap`,`Set` and `ArrayList`
 `PersonTest.java` file contains above test cases.
 
 ##### Write test for different comparators for persons
