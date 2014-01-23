@@ -8,14 +8,6 @@
         <copy file = "README.md" tofile = "build/dist/README.md"/>
     </target>
 
-    <path id="cobertura.classpath">
-        <fileset dir="lib/code-coverage">
-            <include name="cobertura-2.0.3.jar" />
-            <include name="lib/**/*.jar" />
-        </fileset>
-    </path>
-    <taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
-
     <target name = "clean">
         <delete dir = "build"/>
     </target>
@@ -29,7 +21,6 @@
     <target name = "compile-test" depends = "compile">
         <javac srcdir = "test" destdir= "build/classes/test"
                classpath="lib/test/junit-4.10.jar;build/classes/src" debug="yes" includeAntRuntime = "false">
-            <classpath refid="cobertura.classpath" />
         </javac>
     </target>
 
